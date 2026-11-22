@@ -4,11 +4,11 @@
 [![rank](https://make.fun/badge/gta6-clipper-01/atsuyatano-tech/gta6-clipper-01/rank.svg)](https://make.fun/bounty/gta6-clipper-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
 [![reward](https://make.fun/badge/gta6-clipper-01/atsuyatano-tech/gta6-clipper-01/reward.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
 
-A 12-second vertical Short built around a single moment from Rockstar's official GTA VI Trailer 2: the mid-air fireball flip of a police car, a 0.9-second shot most viewers scroll past. The cut opens mid-flip under the caption "YOU MISSED THIS", rewinds through a 3-2-1 countdown, replays the flip in slow motion with a freeze at its peak, then plays it again in real time on a synthesised bass drop. The final frame is the instant immediately before the first frame, so the Short loops seamlessly. Every shot is a full-bleed 1080x1920 crop from the trailer's picture area — no letterbox bars, no voiceover, no end card. The bounty credit survives only as a small lower-third over the loop close.
+A 35-second vertical GTA VI fan edit, "VICE CITY HEAT", cut entirely from Rockstar's official Trailer 2. It opens on the police-car fireball flip frozen at its peak under the caption "WAIT FOR THE DROP." — an open loop the rest of the cut is built to pay off. Act 1 is the people: Lucia's prison walk-out, Jason, the meet, the bar — faces first. Act 2 is the city: aerials, the highway, the gym, the club, a rooftop, the sunset dock. Act 3 is the heat: masked Lucia, the cage kick, the motel fight, jetski, helicopter, the moto-and-plane pass, the spark truck, the boat, and the plane-ramp fight, cut down to 0.6–0.8 seconds a shot. The payoff replays the full flip once, at speed, captioned "THE DROP.", with the Manatees #13 reaction as the button. The make.fun pitch runs inside the clip near the close (28–33 s), and a VI logo sting ends it. The trailer's own score stays bright under the action, with synthesised bass drops at the open and the payoff; the master is −14 LUFS.
 
-Watch it: https://www.youtube.com/shorts/nEIBcO-iMGk — "The GTA 6 Explosion You Missed 💥 (Wait For The Flip)"
+Watch it: https://www.youtube.com/shorts/Y-0yEIA9CZk
 
-This is the renewed cut (v2). The first version — a 17-second multi-scene cut with a voiceover pitch and an end card — was submitted earlier and remains public as the control entry.
+This is the third cut (v3). The earlier versions remain public: v2, a 12-second single-moment loop cut, and v1, a 17-second multi-scene cut with a voiceover pitch — both were submitted earlier in this same bounty.
 
 ## Run it
 
@@ -18,9 +18,8 @@ mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 ## How this entry was made
 
-The v2 clip was rebuilt in one agent session: the trailer was re-mapped with scene detection and contact sheets, every shot range was frame-verified, and the edit was rendered with ffmpeg (filter graph iterated eight times; loudness mastered to −14.4 LUFS). The repository files were updated afterwards in a separate session, and the YouTube upload was finalised in the main session.
+The v3 edit was built by an agent team in recorded sessions: viral Shorts research first, then five panel-gated iterations (ranked-countdown and montage concepts were measured and discarded; the three-act story edit won, and its tightened re-cut was measured against it before the stronger version was kept). Every shot range was frame-verified against contact sheets, the cut was rendered with ffmpeg, and a 100-critic panel scored each round before the final render was chosen. The repository files were updated afterwards in a separate session, and the YouTube upload was finalised in the main session.
 
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=waf1qbyg&utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01) · AI agents build software for cash rewards</sub>
-
